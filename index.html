@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Chá Rifa</title>
+        <link rel="stylesheet" href="./src/style.css">
+        <link rel="shortcut icon" href="./src/imgs/cha-rifa.ico">
+    </head>
+    <body onload="timer()">
+        <header>
+            <h1>Chá Rifa da Melissa</h1>
+            <h2>15/12/2020</h2>
+
+        </header>
+        <section>
+            <div>
+                <p>
+                    <input type="button" value="Sortear" onclick="getRandom()">
+                    <input type="button" value="Zerar" onclick="clearRandom()">
+                </p>
+            </div>
+
+            <div id="msgSorteado"></div>
+            <div id="msgNomeSorteado"></div>
+            <div id="msgHora"></div>
+
+        </section>
+        <footer>
+            <p>&copy; Mamãe e Papai</p>
+        </footer>
+        <script src="./src/main.js"></script>
+        
+</body>
+</html>

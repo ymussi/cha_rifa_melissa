@@ -1,11 +1,13 @@
 body {
-    background: rgb(185, 20, 150);
+    background-image: url("./imgs/pink_cloud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font: normal 15pt Arial;
 
 }
 
 header {
-    color: rgb(255, 255, 255);
+    color: rgb(179, 25, 84);
     text-align: center
 
 }
@@ -25,7 +27,7 @@ section {
 }
 
 footer {
-    color: white;
+    color: rgb(179, 25, 84);
     text-align: center;
     font-style: italic
 }

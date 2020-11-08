@@ -71,7 +71,7 @@ function getNomes(){
             "5": "Daiane",
             "6": "Romilda",
             "7": "Emersom",
-            "8": "Juliana Mussi",
+            "8": "Julianne Mussi",
             "9": "Paulinha",
             "10": "Tia Clélia",
             "11": "Tia Leide",

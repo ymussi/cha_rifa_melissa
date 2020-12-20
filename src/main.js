@@ -37,7 +37,7 @@ function getRandom(){
 };
 
 function getRandTimeout(){
-    setTimeout(getRandom(), 3000);
+    setTimeout(getRandom(), 300);
 }
 
 function clearRandom(){

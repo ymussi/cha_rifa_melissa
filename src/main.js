@@ -36,6 +36,10 @@ function getRandom(){
     getNomeSorteado(sorteado);
 };
 
+function getRandTimeout(){
+    setTimeout(getRandom(), 50000);
+}
+
 function clearRandom(){
     console.log('zerou...');
     var msgSorteado = window.document.getElementById('msgSorteado');
